@@ -1,0 +1,105 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"uglifyFileName": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
+	"appid": "wx41c032143a6065ba",
+	"projectname": "achievement_mini",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "添加业绩",
+					"pathName": "pages/add_results/add_results",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "报表",
+					"pathName": "pages/achievement/achievement",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "添加组织架构",
+					"pathName": "pages/add_archit/add_archit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "报表详情",
+					"pathName": "pages/achievement_details/achievement_details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "动态记录",
+					"pathName": "pages/i_achievement/i_achievement",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "喜报列表",
+					"pathName": "pages/i_good_news/i_good_news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user_people_list",
+					"pathName": "pages/user_people_list/user_people_list",
+					"scene": null
+				}
+			]
+		}
+	}
+}

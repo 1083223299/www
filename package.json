@@ -1,0 +1,8 @@
+{
+  "name": "wxpage-app",
+  "version": "1.0.0",
+  "description": "Miniapp project using WXPage.",
+  "dependencies": {
+    "qiniu-js": "^2.5.3"
+  }
+}

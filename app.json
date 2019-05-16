@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add_case/add_case",
+    "pages/test/test",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/member/member",
+    "pages/report/report",
+    "pages/add_results/add_results",
+    "pages/add_petition/add_petition",
+    "pages/people_list/people_list",
+    "pages/product_list/product_list",
+    "pages/achievement/achievement",
+    "pages/user_people_list/user_people_list",
+    "pages/archit_view/archit_view",
+    "pages/add_archit/add_archit",
+    "pages/achievement_details/achievement_details",
+    "pages/user_people_info/user_people_info",
+    "pages/user_achievement/user_achievement",
+    "pages/user_petition/user_petition",
+    "pages/add_good_from/add_good_from",
+    "pages/add_good_news/add_good_news",
+    "pages/add_complaint/add_complaint",
+    "pages/add_refund/add_refund",
+    "pages/user_case/user_case",
+    "pages/i_achievement/i_achievement",
+    "pages/i_good_news/i_good_news",
+    "pages/i_case/i_case",
+    "pages/modify_pass/modify_pass",
+    "pages/case_details/case_details",
+    "pages/user_complain/user_complain",
+    "pages/user_good_news/user_good_news",
+    "pages/i_knowledge/i_knowledge",
+    "pages/add_knowledge/add_knowledge",
+    "pages/knowledge_details/knowledge_details",
+    "pages/i_knowledge_list/i_knowledge_list",
+    "pages/user_knowledge/user_knowledge"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大臻业绩统计系统",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#0087FF",
+    "backgroundColor": "#fff",
+    "color": "#999",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/img/home_icon_nor.png",
+        "selectedIconPath": "./static/img/home_icon_sel.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/achievement/achievement",
+        "iconPath": "./static/img/bb_wxz.png",
+        "selectedIconPath": "./static/img/bb_yxz.png",
+        "text": "报表"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "iconPath": "./static/img/customer_icon_nor.png",
+        "selectedIconPath": "./static/img/customer_icon.png",
+        "text": "上报"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "./static/img/profile_icon_nor.png",
+        "selectedIconPath": "./static/img/profile_icon_sel.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
