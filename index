@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=8">
+        <meta http-equiv="Cache-Control" content="no-transform">
+        <meta http-equiv="Cache-Control" content="no-siteapp"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <title>{$info['protocol_title']}</title>
+    </head>
+<body>
+    {$info['protocol_content']|stripslashes|htmlspecialchars_decode}
+    {if condition="$show_button"}
+    	<style type="text/css">
+    		.agreeBtn{
+    			padding: 20px 0;
+    			text-align: center;
+    		}
+    		.agreeBtn a{
+    			border-radius: 4px;
+    			padding: 10px 0;
+    			margin: 0 10px;
+    			width: 40%;
+    			display: inline-block;
+    			background-color: #4ca0f5;
+    			color: #fff;
+    			text-decoration: none;
+    		}
+    		.agreeBtn a:first-child{
+    			background-color: #d8dce0;
+    		}
+    	</style>
+        <script type="text/javascript">
+            function is_agree(is_agree){
+                var os = get_os();
+                if(os == 1){
+//                    ios_js_call_loan_protocol(is_agree)
+                    window.webkit.messageHandlers.ios_js_call_loan_protocol.postMessage({is_agree:is_agree})
+                }else if(os == 2){
+                    android_kurong_purong.android_js_call_loan_protocol(is_agree)
+                }
+            }
+            function get_os(){
+                var ua = navigator.userAgent.toLowerCase();
+                if (/iphone|ipad|ipod/.test(ua)) {
+                    return 1;
+                } else if (/android/.test(ua)) {
+                    return 2;
+                }else{
+                    return 0;
+                }
+            }
+        </script>
+    	<div class="agreeBtn">
+    		<a href="javascript:void(0)" onclick="is_agree(2)">不同意</a>
+    		<a href="javascript:void(0)" onclick="is_agree(1)">同意</a>
+    	</div>
+    {/if}
+    <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js" type="text/javascript"></script> 
+	<script type="text/javascript">
+		//替换下划线的颜色
+		function replaceCor(){
+			var spanLen=$("span[style='text-decoration:underline;']");
+			spanLen.css({
+				'border-bottom':'1px solid red',
+				'text-decoration':'none'
+			});
+		}
+		replaceCor();
+    </script>
+</body>
+</html>
