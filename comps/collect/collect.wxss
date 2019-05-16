@@ -1,0 +1,23 @@
+/* src/components/block/collect/collect.wxss */
+.btn{
+    width: 20rpx;
+    height: 20rpx;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    position: fixed;
+    /* background: rgba(0,155,0,0.5); */
+    top: 0;
+    background: none !important;
+}
+button::after{
+    border:none;
+    background: none !important;
+}
+.aa{
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0,155,0,0.5); */
+    position: fixed;
+    top: 0;
+}

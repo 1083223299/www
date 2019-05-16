@@ -1,0 +1,40 @@
+/* src/components/block/jurisdiction/jurisdiction.wxss */
+.conten{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2000;
+}
+.mis{
+    background-color: #fff;
+    width: 70%;
+    height: 300rpx;
+    position: absolute;
+    left: 50%;
+    margin-left: -35%;
+    top: 50%;
+    margin-top: -150rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mis .title{
+    font-size: 32rpx;
+    text-align: center;
+    padding: 30rpx;
+}
+.mis p{
+    color: #999;
+    font-size: 28rpx;
+}
+.mis button{
+    color: #3890ec;
+    background: none;
+    position: absolute;
+    right: 30rpx;
+    bottom: 30rpx;
+    font-size: 28rpx;
+}

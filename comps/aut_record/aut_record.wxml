@@ -1,0 +1,12 @@
+<!--src/components/block/jurisdiction/jurisdiction.wxml-->
+<view class="conten" wx:if="{{is_show}}">
+    <view class="mis">
+        <view class="title">
+            <slot name="title"></slot>
+        </view>
+        <p>申请获得以下权限</p>
+        <p><slot name="conten"></slot></p>
+        <button wx:if="{{noaut}}" bindtap="getrecord">立即授权</button>
+        <button wx:else open-type="openSetting" bindopensetting="getAuthorize">打开权限设置页</button>
+    </view>
+</view>

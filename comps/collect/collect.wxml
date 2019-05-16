@@ -1,0 +1,103 @@
+<!--src/components/block/collect/collect.wxml-->
+<!-- <view class="cont"> -->
+
+
+<form bindsubmit="formSubmit" report-submit="{{true}}">
+    <button formType="submit" class='btn'>
+        <view class='aa'>
+            <form bindsubmit="formSubmit" report-submit="{{true}}">
+                <button formType="submit" class='btn'>
+                    <view class='aa'>
+                        <form bindsubmit="formSubmit" report-submit="{{true}}">
+                            <button formType="submit" class='btn'>
+                                <view class='aa'>
+                                    <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                        <button formType="submit" class='btn'>
+                                            <view class='aa'>
+                                                <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                    <button formType="submit" class='btn'>
+                                                        <view class='aa'>
+                                                            <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                <button formType="submit" class='btn'>
+                                                                    <view class='aa'>
+                                                                        <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                            <button formType="submit" class='btn'>
+                                                                                <view class='aa'>
+                                                                                    <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                                        <button formType="submit" class='btn'>
+                                                                                            <view class='aa'>
+                                                                                                <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                                                    <button formType="submit" class='btn'>
+                                                                                                        <view class='aa'>
+                                                                                                            <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                                                                <button formType="submit" class='btn'>
+                                                                                                                    <view class='aa'>
+                                                                                                                        <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                                                                            <button formType="submit" class='btn'>
+                                                                                                                                <view class='aa'>
+                                                                                                                                    <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                                                                                        <button formType="submit" class='btn'>
+                                                                                                                                            <view class='aa'>
+                                                                                                                                                <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                                                                                                    <button formType="submit" class='btn'>
+                                                                                                                                                        <view class='aa'>
+                                                                                                                                                            <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                                                                                                                <button formType="submit" class='btn'>
+                                                                                                                                                                    <view class='aa'>
+                                                                                                                                                                        <form bindsubmit="formSubmit" report-submit="{{true}}">
+                                                                                                                                                                            <button formType="submit" class='btn'>
+                                                                                                                                                                                <view class='aa'>
+                                                                                                                                                                                    <slot name="slot1"></slot>
+                                                                                                                                                                                </view>
+                                                                                                                                                                            </button>
+                                                                                                                                                                        </form>
+                                                                                                                                                                    </view>
+                                                                                                                                                                </button>
+                                                                                                                                                            </form>
+                                                                                                                                                        </view>
+                                                                                                                                                    </button>
+                                                                                                                                                </form>
+                                                                                                                                            </view>
+                                                                                                                                        </button>
+                                                                                                                                    </form>          
+                                                                                                                                </view>
+                                                                                                                            </button>
+                                                                                                                        </form>
+                                                                                                                    </view>
+                                                                                                                </button>
+                                                                                                            </form>
+                                                                                                        </view>
+                                                                                                    </button>
+                                                                                                </form>
+                                                                                            </view>
+                                                                                        </button>
+                                                                                    </form>
+                                                                                </view>
+                                                                            </button>
+                                                                        </form>    
+                                                                    </view>
+                                                                </button>
+                                                            </form>
+                                                        </view>
+                                                    </button>
+                                                </form>
+                                            </view>
+                                        </button>
+                                    </form>
+                                </view>
+                            </button>
+                        </form>
+                    </view>
+                </button>
+            </form>
+        </view>
+    </button>
+</form>
+
+<!-- </view> -->
+
+<!-- <form bindsubmit="formSubmit" report-submit="{{true}}">
+    <button formType="submit" class='btn'>
+        <slot name="c"></slot>
+    </button>
+</form> -->

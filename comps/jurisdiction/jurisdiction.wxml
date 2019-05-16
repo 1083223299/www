@@ -1,0 +1,11 @@
+<!--src/components/block/jurisdiction/jurisdiction.wxml-->
+<view class="conten" wx:if="{{is_show}}">
+    <view class="mis">
+        <view class="title">
+            登录并授权
+        </view>
+        <p>申请获得以下权限</p>
+        <p>获得您的公开信息（昵称，头像等）</p>
+        <button open-type="getUserInfo" bindgetuserinfo="getAuthorize">确认授权</button>
+    </view>
+</view>

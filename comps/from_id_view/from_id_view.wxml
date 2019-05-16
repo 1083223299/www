@@ -1,0 +1,6 @@
+<!--comps/from_id_view.wxml-->
+<view class="pure-box">
+    <form bindsubmit="updata_from_id" report-submit="{{true}}">
+        <button formType="submit" class="pure-btn"></button>
+    </form>
+</view>
